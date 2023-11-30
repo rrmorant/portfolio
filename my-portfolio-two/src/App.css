@@ -1,0 +1,308 @@
+/* body {
+  background-image: url(https://eg72s2n2avc.exactdn.com/wp-content/uploads/2022/09/sunset-and-wheat-field-wallpaper-hd-beautiful-desktop-background-hd-wallpapers-of-sunset-field-free-download.jpg?strip=all&lossy=1&w=2560&ssl=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+.bg-image {
+  background-image: url(https://wallpapercave.com/wp/wp7181389.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 1440px;
+  height: 1024px; */
+  /* filter: blur(8px); */
+}
+
+.personal-portfolio {
+  /* background-color: #ffffff; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.div {
+  /* background-color: #ffffff; */
+  height: 1024px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.overlap-group {
+  height: 1024px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.header {
+  background: rgba(0, 0, 0, 0.3);
+  height: 1024px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.header-text {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  left: 138px;
+  position: absolute;
+  top: 290px;
+  width: 538px;
+}
+
+.div-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.name {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.text-wrapper {
+  color: #ffffff;
+  font-family: "Whisper-Regular", Helvetica;
+  font-size: 52px;
+  font-weight: 400;
+  letter-spacing: 8.32px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.intro-text {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.text-wrapper-2 {
+  color: #9c9c9c;
+  font-family: "Tinos-Regular", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  width: 492px;
+}
+
+.call-to-action {
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgb(142.38, 130.04, 111.53) 0%,
+    rgba(8, 8, 8, 0) 100%
+  );
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 4px;
+  box-shadow: 0px 8px 30px #8e827080;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 21px 64px;
+  position: relative;
+}
+
+.text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Tinos-Bold", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.92px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.vector {
+  height: 10px;
+  position: relative;
+  width: 5.89px;
+}
+
+.text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Tinos-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 23px;
+  left: 115px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 799px;
+  white-space: nowrap;
+}
+
+.photo-here {
+  height: 300px;
+  left: 878px;
+  position: absolute;
+  top: 282px;
+  width: 330px;
+}
+
+.coding-languages {
+  height: 60px;
+  left: 115px;
+  position: absolute;
+  top: 854px;
+  width: 1210px;
+}
+
+.rectangle {
+  background-color: #1a1a1a;
+  border-radius: 0px 0px 8px 8px;
+  height: 70px;
+  left: 97px;
+  position: absolute;
+  top: 0;
+  width: 1190px;
+}
+
+.top-menu {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 70px;
+  left: 180px;
+  position: absolute;
+  top: 24px;
+}
+
+.text-wrapper-5 {
+  color: #9c9c9c;
+  font-family: "Tinos-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.social-media-icons {
+  height: 17px;
+  left: 1064px;
+  position: absolute;
+  top: 25px;
+  width: 108px;
+}
+
+.home {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 623px;
+  position: absolute;
+  top: 4439px;
+}
+
+.text-wrapper-6 {
+  color: #9c9c9c;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.14px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Tinos-Regular", Helvetica;
+  /* font-family: "Papyrus"; */
+  color: #fff;
+  background: rgba(99, 71, 71, 0);
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin: 100px auto;
+  /* width: 60%; */
+}
+
+a:hover {
+  /* Add hover styles if desired */
+  background-color: rgba(99, 71, 71, 0);
+}
+
+.coding-languages {
+  display: inline-flex;
+  height: 60px;
+  padding-right: 0px;
+  align-items: flex-start;
+  gap: 170.978px;
+  flex-shrink: 0;
+  width: 78.913px;
+  height: 60px;
+}
+
+.java-script {
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 79px;
+}
+
+.html {
+  height: 60px;
+  left: 250px;
+  position: absolute;
+  top: 0;
+  width: 79px;
+}
+
+.css {
+  height: 60px;
+  left: 500px;
+  position: absolute;
+  top: 0;
+  width: 79px;
+}
+
+.react {
+  height: 60px;
+  left: 750px;
+  position: absolute;
+  top: 0;
+  width: 79px;
+}
+
+.ruby {
+  height: 60px;
+  left: 1000px;
+  position: absolute;
+  top: 0;
+  width: 79px;
+}
