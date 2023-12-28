@@ -1,15 +1,19 @@
 import React from "react";
-import Portfolio from "./components/Portfolio";
+import { useEffect, useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
+import Home from "./pages/home";
+import Portfolio from "./pages/portfolio";
 
 const App = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Portfolio />
-      </header>
-    </div>
-  );
+	return (
+		<Router>
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route  path="/portfolio" element={<Portfolio />} />
+			</Routes>
+		</Router>
+	);
 };
 
 export default App;
