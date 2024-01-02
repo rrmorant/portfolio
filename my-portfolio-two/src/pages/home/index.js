@@ -1,7 +1,7 @@
 import React from "react";
 import HomePic from "../../assets/pic-from-side.jpg";
 import Typewriter from "typewriter-effect";
-import { SocialIcon } from "react-social-icons";
+// import { SocialIcon } from "react-social-icons";
 import { Link } from "react-router-dom";
 import "./style.css";
 
@@ -48,7 +48,7 @@ const Home = () => {
 					</p>
 					<p className="description">{myIntro.description}</p>
 				</div>
-				<div className="social-media">
+				{/* <div className="social-media">
 					<SocialIcon
 						className="icon"
 						url="https://www.linkedin.com/in/ronmorant/"
@@ -63,18 +63,18 @@ const Home = () => {
 						rel="noopener noreferrer"
 						bgColor="black"
 					/>
-				</div>
+				</div> */}
 				<div className="buttons">
-						<div className="contact">
-							<div className="contact-text">Contact Me</div>
-						</div>
+					<div className="contact">
+						<div className="contact-text">Contact Me</div>
+					</div>
 					<div className="portfolio">
-					<Link to="/portfolio" className="text-2">
-						<div className="portfolio-text">Portfolio</div>
-					</Link>
+						<Link to="/portfolio">
+							<div className="portfolio-text">Portfolio</div>
+						</Link>
 					</div>
 				</div>
-				<img className="picture-one" alt="Picture of Ron" src={HomePic} />
+				<img className="black-and-white" alt="Ron" src={HomePic} />
 			</div>
 		</div>
 	);
