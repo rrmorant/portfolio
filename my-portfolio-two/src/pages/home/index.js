@@ -13,7 +13,7 @@ const Home = () => {
 			second: "Husband",
 			third: "Father",
 			fourth: "Marine",
-			fifth: "Web Developer",
+			fifth: "Developer",
 		},
 		description:
 			"Greatly appreciate you for dropping by! Check out my portfolio to see my journey.",

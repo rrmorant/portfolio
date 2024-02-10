@@ -8,16 +8,14 @@ const Header = () => {
 
 	const handleToggle = () => {
 		setActive(!isActive);
-		document.body.classList.toggle("ovhidden");
+		// document.body.classList.toggle("ovhidden");
 	};
 
 	const logotext = "RON";
 
 	const socialprofils = {
 		github: "https://github.com",
-		facebook: "https://facebook.com",
 		linkedin: "https://linkedin.com",
-		twitter: "https://twitter.com",
 	};
 
 	return (
@@ -72,9 +70,7 @@ const Header = () => {
 						<div className="d-flex">
 							<a href={socialprofils.facebook}>Facebook</a>
 							<a href={socialprofils.github}>Github</a>
-							<a href={socialprofils.twitter}>Twitter</a>
 						</div>
-						<p className="copyright m-0">copyright __ {logotext}</p>
 					</div>
 				</div>
 			</header>
